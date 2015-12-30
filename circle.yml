@@ -2,5 +2,5 @@ machine:
   ruby:
     version: 2.2.3
 test:
-  override:
+  post:
     - bundle exec jekyll build
