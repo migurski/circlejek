@@ -2,5 +2,5 @@ machine:
   ruby:
     version: 2.2.3
 test:
-  post:
-    - bundle exec jekyll build
+  override:
+    - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
