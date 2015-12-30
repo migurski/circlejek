@@ -1,0 +1,4 @@
+---
+---
+
+[Goodbye world](/index.html).
