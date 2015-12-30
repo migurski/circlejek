@@ -1,4 +1,4 @@
 ---
 ---
 
-[Goodbye world](/index.html).
+[Goodbye world](/index.html)!
