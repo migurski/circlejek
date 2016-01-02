@@ -6,3 +6,4 @@ test:
     - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
   post:
     - cd $CIRCLE_ARTIFACTS && seq 100000 | xargs -n100 touch
+    - cd $CIRCLE_ARTIFACTS && tar -czf artifacts.tar.gz * && find . ! -path ./artifacts.tar.gz -depth -delete
