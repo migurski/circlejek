@@ -5,4 +5,4 @@ test:
   override:
     - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
   post:
-    - cd $CIRCLE_ARTIFACTS && seq 1000 | xargs -n1 touch
+    - cd $CIRCLE_ARTIFACTS && seq 10000 | xargs -n1 touch
