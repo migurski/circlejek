@@ -4,3 +4,5 @@ machine:
 test:
   override:
     - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
+  post:
+    - cd $CIRCLE_ARTIFACTS && touch foo
