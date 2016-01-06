@@ -1,4 +1,4 @@
 ---
 ---
 
-[Hello world](/goodbye.html).
+[Hello world](/goodbye.html)…
