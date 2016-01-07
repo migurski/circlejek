@@ -4,6 +4,7 @@ machine:
 test:
   override:
     - bundle exec jekyll build
+    - cp --recursive --no-target-directory --link _site $CIRCLE_ARTIFACTS
 general:
   artifacts:
     - "_site"
