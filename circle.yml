@@ -3,4 +3,7 @@ machine:
     version: 2.2.3
 test:
   override:
-    - bundle exec jekyll build -d $CIRCLE_ARTIFACTS
+    - bundle exec jekyll build
+general:
+  artifacts:
+    - "_site"
